@@ -1,0 +1,183 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		
+		<!--FIREBASE REFERENCE-->
+		<script src="https://cdn.firebase.com/js/client/1.0.19/firebase.js"></script>
+		<script src="https://cdn.firebase.com/js/simple-login/1.6.3/firebase-simple-login.js"></script> <!--Installs Simple Login-->
+		
+
+		<!-- CSS -->		
+		<link href="bootstrap/css/bootstrap.min.css" rel="stylesheet" type="text/css">
+		<link href="carousel.css" rel="stylesheet" type="text/css">
+		<link href="landing.css" rel="stylesheet" type="text/css">
+
+		<title>Team Dos</title>
+		
+	</head>
+		
+	<body onload="load()">
+	
+	
+	
+		
+	<!-- Carousel
+	===========================================================================================================================================-->
+	    <div id="myCarousel" class="carousel slide" data-ride="carousel">
+	      <!-- Indicators -->
+	      <ol class="carousel-indicators">
+	        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+	        <li data-target="#myCarousel" data-slide-to="1"></li>
+	        <li data-target="#myCarousel" data-slide-to="2"></li>
+	      </ol>
+	      <div class="carousel-inner">
+	        <div class="item active">
+	          <img src="images/Math-Equations.jpg" alt="First slide">
+	          <div class="container">
+	            <div class="carousel-caption">
+					<p><a class="btn btn-lg btn-primary" href="#" role="button">Sign Up</a></p>
+	            </div>
+	          </div>
+	        </div>
+	      </div>
+	      <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev"><span class="glyphicon glyphicon-chevron-left"></span></a>
+	      <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next"><span class="glyphicon glyphicon-chevron-right"></span></a>
+	    </div>
+	    <!--close carousel -->		
+	
+	
+	
+	
+	
+	
+	<!-- NAVBAR
+	======================================================================================================================================= -->	   	
+	    <div class="navbar-wrapper">
+			<div class="container">
+			
+				<!-- static-top makes navbar not whole width of screen
+					 fixed-top makes navbar the whole width of screen -->				 
+				<nav class="navbar navbar-inverse navbar-static-top" role="navigation">
+					<div class="container">
+						<div class="navbar-header">
+							<button class="navbar-toggle" type="button" data-toggle="collapse" data-target=".navbar-collapse">
+								<span class="sr-only">Toggle navigation</span>
+								<span class="icon-bar"></span>
+								<span class="icon-bar"></span>
+								<span class="icon-bar"></span>
+								
+							</button>
+							
+							<!--BRAND-->
+							<a class="navbar-brand" href="#">Team Dos</a><!-- a tag is used for linking-->		
+											
+						</div><!--close navbar-header-->
+						
+						<div class="navbar-collapse collapse">
+							<form class="navbar-form navbar-right" role="form">														
+								
+								<div class="form-group">
+									<input id="emailField" class="form-control" type="text" placeholder="email">
+								</div>
+								
+								<div class="form-group">
+									<input id="passwordField"class="form-control" type="password" placeholder="password">
+								</div>		
+													
+								<button id="loginButton" class="btn btn-primary" type="submit"> Login </button>
+								<button id="logoutButton" class="btn btn-danger" type="submit"> Logout </button>
+	
+								
+							</form>							
+	
+						</div><!--close navbar-collapse-->					
+						
+					</div><!--close container w/in navbar-->	
+				</nav>
+			</div><!--close container-->
+		</div><!--close navbar-wrapper-->
+
+
+		
+	
+		<div class="container">
+			<div class="row">
+			
+				<!-- JOURNAL
+				================================================== JOURNAL ============================================= 	-->	
+				<div class="col-lg-3">
+					<div class="item">
+						<h1 class="homeItem"> Journal </h1>
+					</div>	
+				</div><!--close col-->
+					
+				<!-- CALENDAR
+				================================================== CALENDAR ============================================= 	-->		
+				<div class="col-lg-3">
+					<div class="item">
+						<h1 class="homeItem"> Calendar </h1>
+					</div>	
+				</div><!--close col-->
+					
+				<!-- MOOD
+				================================================== MOOD ============================================= 	-->			
+				<div class="col-lg-3">
+					<div class="item">
+						<h1 class="homeItem"> Mood </h1>
+					</div>	
+				</div><!--close col-->
+					
+				<!-- GOALS
+				================================================== GOALS ============================================= 	-->			
+				<div class="col-lg-3">
+					<div class="item">
+						<h1 class="homeItem"> Goals </h1>
+					</div>	
+				</div><!--close col-->
+				
+															
+			</div><!--close row-->	
+		</div><!-- close container-->	
+		
+		
+		
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+		<!--FIREBASE JS-->
+		<script src="https://cdn.firebase.com/js/client/1.0.19/firebase.js"></script>
+
+
+		<!-- JavaScript -->
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+		
+		<script src="https://code.jquery.com/jquery-2.1.0.min.js"></script><!--JS Fiddle EXample-->
+
+		<script src="bootstrap/js/bootstrap.min.js"></script>
+		<script src="nextLanding.js"></script>	
+		
+		<!-- AngularJS -->
+		<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.3.0-beta.17/angular.min.js"></script>
+
+
+		<!-- AngularFire -->
+		<script src="https://cdn.firebase.com/libs/angularfire/0.8.0/angularfire.min.js"></script>
+
+
+		
+	</body>
+</html>
