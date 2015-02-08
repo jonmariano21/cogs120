@@ -1,0 +1,131 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		
+
+		<!-- CSS -->		
+		<link href="bootstrap/css/bootstrap.min.css" rel="stylesheet" type="text/css">
+		<link href="landing.css" rel="stylesheet" type="text/css">
+
+		<title>Team Dos</title>
+		
+	</head>
+			
+
+	
+	
+	<!-- NAVBAR
+	======================================================================================================================================= -->	   	
+	    <div class="navbar-wrapper">
+			<div class="container">
+			
+				<!-- static-top makes navbar not whole width of screen
+					 fixed-top makes navbar the whole width of screen -->				 
+				<nav class="navbar navbar-inverse navbar-static-top" role="navigation">
+					<div class="container">
+						<div class="navbar-header">
+	
+							<!--BRAND-->
+							<a class="navbar-brand" href="#">Team Dos</a><!-- a tag is used for linking-->		
+											
+						</div><!--close navbar-header-->
+
+					</div><!--close container w/in navbar-->	
+				</nav>
+			</div><!--close container-->
+		</div><!--close navbar-wrapper-->
+
+
+		
+		<!-- EMOTIONS
+		===============================================================================================================================-->	
+		<div class="container">
+			<div class="row">
+			
+				<!-- Confused
+				================================================== CONFUSED ============================================= 	-->	
+				<div class="col-sm-3">
+					<div class="emotion">
+						<img src="Emotions/confused.PNG" data-toggle="modal" data-target="#emotionModal" alt="confused">
+					</div>
+				</div><!--close col-->
+					
+				<!-- Angry
+				================================================== ANGRY ============================================= 	-->		
+				<div class="col-sm-3">
+					<div class="emotion">
+						<img src="Emotions/angry.PNG" data-toggle="modal" data-target="#emotionModal" alt="angry">
+					</div>
+				</div><!--close col-->
+					
+				<!-- Ecstatic
+				================================================== ECSTATIC ============================================= 	-->			
+				<div class="col-sm-3">
+					<div class="emotion">
+						<img src="Emotions/ecstatic.PNG" data-toggle="modal" data-target="#emotionModal" alt="ecstatic">
+					</div>
+				</div><!--close col-->
+					
+				<!-- EXHAUSTED
+				================================================== EXHAUSTED ============================================= 	-->			
+				<div class="col-sm-3">
+					<div class="emotion">
+						<img src="Emotions/exhausted.PNG" data-toggle="modal" data-target="#emotionModal" alt="exhausted">
+					</div>
+				</div><!--close col-->
+				
+															
+			</div><!--close row-->	
+		</div><!-- close container-->	
+		
+		
+		
+	<!-- MODAL Pop Up when emotion is clicked
+	===============================================================================================================================-->				<div class="modal fade" id="emotionModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+		  <div class="modal-dialog">
+		    <div class="modal-content">
+		      <div class="modal-header">
+		        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+		        <h4 class="modal-title" id="exampleModalLabel">Carol</h4>
+		      </div>
+		      <div class="modal-body">
+		        <form>
+		          <div class="form-group">
+		            <label for="message-text" class="control-label">Why do you feel this way?</label>
+					<textarea class="form-control" id="message-text"></textarea>		          
+				  </div>
+		        </form>
+		      </div>
+		      <div class="modal-footer">
+		        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+		        <button type="button" class="btn btn-primary">Send to Timeline</button>
+		      </div>
+		    </div>
+		  </div>
+		</div>
+		
+		
+		
+		
+
+
+		<!-- JavaScript -->
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+		
+		<script src="https://code.jquery.com/jquery-2.1.0.min.js"></script><!--JS Fiddle EXample-->
+
+		<script src="bootstrap/js/bootstrap.min.js"></script>
+		<script src="homePage.js"></script>	
+		
+
+
+
+
+
+
+
+		
+	</body>
+</html>

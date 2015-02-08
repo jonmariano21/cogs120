@@ -1,50 +1,28 @@
-/* ROW & COL
+/* 
 ======================================================================================== */
-/*tr{
-	background-color: #8AC007;
-	color: white;
-}
-*/
 
-.block{
-	color:aqua;
-	max-width: 100%;
-    max-height: 100%;
-}
-
-
-.col-lg-3{
-	/*background-color: #003399; *//*dark Blue background color of entire COL*/
-	border-radius: 3%;
+.col-sm-3{
+	border-style: solid;
 }
 
 img {
-    max-width: 100%;
-    max-height: 100%;
+    max-width: 124px;
+    max-height: 96px;
 }
-
-/* COURSE
-======================================================================================== */
-.item{
-	/*background-color: aqua;*/
-	border-radius: 5%;
-	max-width: 100%; 
-	max-height: 100%;
-	margin-bottom: 5px;
-
-}
-.homeItem{
-	text-align: center;
-	
-}
-
-
-
 
 
 /* 
 ======================================================================================== */
 
+.emotion{
+	border-style: dashed; 
+	text-align: center;
+	
+
+}
+
+/* 
+======================================================================================== */
 
 
 
