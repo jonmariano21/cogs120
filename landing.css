@@ -1,9 +1,6 @@
 /* 
 ======================================================================================== */
 
-.col-sm-3{
-	border-style: solid;
-}
 
 img {
     max-width: 124px;
@@ -15,10 +12,29 @@ img {
 ======================================================================================== */
 
 .emotion{
-	border-style: dashed; 
+	/*border-style: dashed; */ /*Dashed line around emotion DIV for DEBUGGING*/ 
 	text-align: center;
 	
 
+}
+
+#howDoYouFeel{
+	text-align: center
+}
+
+table{
+	width: 100%;
+	height: 100%;
+	
+}
+
+td{
+	padding-top: 5%;
+}
+
+
+.textArea{
+	width: 100%;
 }
 
 /* 

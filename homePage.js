@@ -9,5 +9,9 @@ $('#emotionModal').on('show.bs.modal', function (event) {
 })
 
 
+function saveToTimeLine(){
+	alert("yo");
+	<a href = "timeLine.html"> </a> </li>;
+}
 
 
