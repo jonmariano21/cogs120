@@ -1,1 +1,0 @@
-{"virtualbox":{"/home/vagrant":{"mount_options":["dmode=775,fmode=0600"],"guestpath":"/home/vagrant","hostpath":"/Users/jonathanmariano/Desktop/cogs120","disabled":false},"/vagrant":{"guestpath":"/vagrant","hostpath":"/Users/jonathanmariano/Desktop/cogs120","disabled":false}}}
